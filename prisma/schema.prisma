@@ -1,0 +1,42 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("MONGODB_URI")
+}
+
+
+model User {
+  id          String    @id @default(auto()) @map("_id") @db.ObjectId
+  firebaseUid String    @unique
+  email       String    @unique
+  name        String?
+  image       String?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  listings    Listing[] // one user → many listings
+}
+
+
+model Listing {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  title       String
+  address     String
+  description String?
+  price       Float
+  perks       String[] // ["wifi", "chaos", "haunted"]
+  photos      String[] // Cloudinary URLs, index 0 = main photo
+
+  // owner
+  ownerId     String   @db.ObjectId
+  owner       User     @relation(fields: [ownerId], references: [id])
+
+  // users who booked this listing (many-to-many via embedded array)
+  bookedByIds String[] @db.ObjectId
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
