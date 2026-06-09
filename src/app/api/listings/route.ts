@@ -37,7 +37,9 @@ export async function GET(req: NextRequest) {
     orderBy: { createdAt: "desc" },
   });
 
-  return NextResponse.json(listings);
+  const randomizedListings = [...listings].sort(() => Math.random() - 0.5);
+
+  return NextResponse.json(randomizedListings);
 }
 
 export async function PATCH(req: NextRequest) {

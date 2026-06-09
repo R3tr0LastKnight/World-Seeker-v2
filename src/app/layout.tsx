@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Google_Sans } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
+import { Toaster } from "@/components/ui/sonner";
 
 const googleSans = Google_Sans({
   variable: "--font-google-sans",
@@ -11,6 +12,20 @@ const googleSans = Google_Sans({
 export const metadata: Metadata = {
   title: "World Seeker",
   description: "Chart the world.",
+  icons: {
+    icon: [
+      {
+        media: "(prefers-color-scheme: dark)",
+        url: "/world-dark.png",
+        href: "/world-dark.png",
+      },
+      {
+        media: "(prefers-color-scheme: light)",
+        url: "/world-light.png",
+        href: "/world-light.png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -23,6 +38,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <Nav unknown={undefined} />
         {children}
+        <Toaster />
       </body>
     </html>
   );

@@ -7,36 +7,59 @@ datasource db {
   url      = env("MONGODB_URI")
 }
 
-
 model User {
-  id          String    @id @default(auto()) @map("_id") @db.ObjectId
-  firebaseUid String    @unique
-  email       String    @unique
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  firebaseUid String   @unique
+  email       String   @unique
   name        String?
   image       String?
-  createdAt   DateTime  @default(now())
-  updatedAt   DateTime  @updatedAt
 
-  listings    Listing[] // one user → many listings
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Listings created by this user
+  listings    Listing[] @relation("UserListings")
+
+  // Bookings made by this user
+  bookings    Booking[]
 }
-
 
 model Listing {
   id          String   @id @default(auto()) @map("_id") @db.ObjectId
+
   title       String
   address     String
   description String?
   price       Float
-  perks       String[] // ["wifi", "chaos", "haunted"]
-  photos      String[] // Cloudinary URLs, index 0 = main photo
 
-  // owner
-  ownerId     String   @db.ObjectId
-  owner       User     @relation(fields: [ownerId], references: [id])
-
-  // users who booked this listing (many-to-many via embedded array)
-  bookedByIds String[] @db.ObjectId
+  perks       String[]
+  photos      String[]
 
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
+
+  // Owner relation
+  ownerId      String   @db.ObjectId
+  owner        User     @relation("UserListings", fields: [ownerId], references: [id])
+
+  // All bookings for this listing
+  bookings     Booking[]
+
+  // Cached list of users who booked
+  bookedByIds  String[] @db.ObjectId
+}
+
+model Booking {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+
+  userId      String   @db.ObjectId
+  listingId   String   @db.ObjectId
+
+  startDate   DateTime
+  endDate     DateTime
+
+  createdAt   DateTime @default(now())
+
+  user        User     @relation(fields: [userId], references: [id])
+  listing     Listing  @relation(fields: [listingId], references: [id])
 }

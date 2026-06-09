@@ -48,7 +48,7 @@ const Page = () => {
   return (
     <Drawer open={drawerOpen} onOpenChange={setDrawerOpen}>
       <div className="flex flex-col lg:flex-row my-4 mx-4 gap-4">
-        <div className="shadow-[0_3px_10px_rgb(0,0,0,0.2)] dark:shadow-[0_2px_10px_rgba(255,255,255,0.03)] rounded-lg min-h-50 w-full">
+        <div className="shadow-[0_3px_10px_rgb(0,0,0,0.2)] dark:shadow-[0_2px_10px_rgba(255,255,255,0.03)] rounded min-h-50 w-full">
           <div className="flex flex-col lg:flex-row justify-between lg:items-center gap-6 p-6">
             <h1 className="text-2xl font-bold">Listings</h1>
             <button
@@ -66,7 +66,11 @@ const Page = () => {
               <p className="text-gray-400">No listings yet. Create one!</p>
             ) : (
               listings.map((listing) => (
-                <div key={listing.id} onClick={() => openEdit(listing)}>
+                <div
+                  key={listing.id}
+                  onClick={() => openEdit(listing)}
+                  className="cursor-pointer"
+                >
                   <LocaRect listing={listing} />
                 </div>
               ))

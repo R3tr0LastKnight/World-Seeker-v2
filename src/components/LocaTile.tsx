@@ -15,17 +15,25 @@ const LocaTile = ({ listing }: Props) => {
     <Drawer>
       <DrawerTrigger asChild>
         <div className="justify-center my-2 cursor-pointer">
-          <div className="rounded-2xl flex justify-center md:justify-start mb-2 h-[70%]">
+          <div className="rounded flex justify-center md:justify-start mb-2 h-[70%]">
             {listing.photos[0] ? (
-              <Image
-                src={listing.photos[0]}
-                width={1000}
-                height={600}
-                alt={listing.title}
-                className="rounded-2xl object-cover md:w-[90%]"
-              />
+              <div className="relative w-[95%] aspect-video ml-2">
+                <Image
+                  src={listing.photos[0]}
+                  alt={listing.title}
+                  fill
+                  className="rounded object-cover"
+                />
+              </div>
             ) : (
-              <div className="rounded-2xl md:w-[90%] h-60 bg-gray-200 flex items-center justify-center text-gray-400">
+              // <Image
+              //   src={listing.photos[0]}
+              //   width={1000}
+              //   height={600}
+              //   alt={listing.title}
+              //   className="rounded-2xl object-cover md:w-[90%]"
+              // />
+              <div className="rounded md:w-[90%] h-60 bg-gray-200 flex items-center justify-center text-gray-400">
                 No photo
               </div>
             )}

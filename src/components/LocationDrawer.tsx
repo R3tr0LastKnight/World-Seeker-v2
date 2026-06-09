@@ -5,6 +5,7 @@ import { DrawerContent, DrawerTitle } from "@/components/ui/drawer";
 import Image from "next/image";
 import { Listing } from "@/types/listing";
 import { PERKS } from "./Perks"; // make sure PERKS is exported
+import BookingWidget from "./BookingWidget";
 
 type Props = {
   listing: Listing;
@@ -35,7 +36,7 @@ const LocationDrawer = ({ listing }: Props) => {
                   src={photo}
                   alt={`photo ${i + 1}`}
                   fill
-                  className="object-cover rounded-2xl"
+                  className="object-cover rounded"
                 />
               </div>
             ))}
@@ -82,7 +83,7 @@ const LocationDrawer = ({ listing }: Props) => {
 
         {/* Photo grid */}
         <div className="relative">
-          <div className="grid gap-2 lg:grid-cols-[2fr_1fr] my-2 rounded-3xl overflow-hidden">
+          <div className="grid gap-2 lg:grid-cols-[2fr_1fr] my-2 rounded overflow-hidden">
             {/* Main photo */}
             <div className="relative h-72 lg:h-96">
               {listing.photos[0] && (
@@ -90,7 +91,7 @@ const LocationDrawer = ({ listing }: Props) => {
                   src={listing.photos[0]}
                   alt="main photo"
                   fill
-                  className="object-cover rounded-2xl cursor-pointer"
+                  className="object-cover rounded cursor-pointer"
                   onClick={() => setShowAllPhotos(true)}
                 />
               )}
@@ -104,7 +105,7 @@ const LocationDrawer = ({ listing }: Props) => {
                       src={photo}
                       alt={`photo ${i + 2}`}
                       fill
-                      className="object-cover rounded-2xl cursor-pointer"
+                      className="object-cover rounded cursor-pointer"
                       onClick={() => setShowAllPhotos(true)}
                     />
                   </div>
@@ -155,7 +156,7 @@ const LocationDrawer = ({ listing }: Props) => {
                   {activePerks.map(({ name, icon, label }) => (
                     <div
                       key={name}
-                      className="border rounded-xl p-3 flex items-center gap-2 text-sm"
+                      className="border rounded p-3 flex items-center gap-2 text-sm"
                     >
                       {icon}
                       <span>{label}</span>
@@ -167,17 +168,7 @@ const LocationDrawer = ({ listing }: Props) => {
           </div>
 
           {/* Booking widget placeholder */}
-          <div className="border rounded-2xl p-4 h-fit shadow-sm">
-            <div className="text-2xl font-bold mb-1">
-              ₹ {listing.price}{" "}
-              <span className="text-base font-normal text-gray-500">
-                / night
-              </span>
-            </div>
-            <button className="w-full mt-4 cursor-pointer hover:bg-gray-800 bg-black hover:text-white text-white border py-2 rounded  transition-all">
-              Book Now
-            </button>
-          </div>
+          <BookingWidget listing={listing} />
         </div>
       </div>
     </DrawerContent>
