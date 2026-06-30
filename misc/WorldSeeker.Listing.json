@@ -1,0 +1,1097 @@
+[{
+  "_id": {
+    "$oid": "6a22603a963ba269f5f3b581"
+  },
+  "title": "Impel down",
+  "address": "Calm belt",
+  "description": "Impel Down, also known as the Underwater Prison (海底監獄, Kaitei Kangoku?) and the Great Prison (大監獄, Dai Kangoku?), is a government-controlled stronghold in Paradise together with Marineford and Enies Lobby. It is the World Government's maximum-security prison for the most dangerous criminals and pirates.[2] It is located underwater in the middle of the Calm Belt and part of the Tarai Current.[3]",
+  "price": 486,
+  "perks": [
+    "coastal",
+    "mythical",
+    "radioactive",
+    "medieval",
+    "chaos",
+    "redacted"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780637744/ldishhxz1hyy4b29lspk.avif",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780637742/noi9inbaymckihg5lxnj.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780637742/ohfoqsq5kiym0vrg7bq7.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780637743/znkq2b8v7fddxo8lozbp.jpg"
+  ],
+  "ownerId": {
+    "$oid": "6a1ebe714ebbd58c2f1d91f5"
+  },
+  "createdAt": {
+    "$date": "2026-06-05T05:35:53.969Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T18:51:44.695Z"
+  },
+  "bookedByIds": [
+    {
+      "$oid": "6a1ebe714ebbd58c2f1d91f5"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a226311963ba269f5f3b582"
+  },
+  "title": "Water 7 ",
+  "address": "Paradise",
+  "description": "Water 7, known as the \"Capital of Water\" (水の都, Mizu no Miyako?) and located on \"Shipbuilding Island\" (造船島, Zōsen-jima?), is a city in Paradise known for its shipwrights.[1] It is the main setting of the Water 7 Arc and Post-Enies Lobby Arc.\n\nThe Straw Hat Pirates stopped here to trade in their gold for belly, as well as to repair the Going Merry and also to find a new shipwright for their crew. It is part of the route their log was on, heading there directly after Long Ring Long Land, making it the eighth island in Paradise that they visited.",
+  "price": 800,
+  "perks": [
+    "coastal",
+    "wifi",
+    "mythical",
+    "historical",
+    "medieval",
+    "scifi"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780638467/zrxmw2j5yt6513txquyu.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780638466/clamkodvd8nankuqe7yr.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780638461/koxvhuvgwska0x2l1san.avif",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780638463/m7pivjm2cgviuaxoowdb.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780638464/rpva4buptjtcl9wiytiv.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780638464/sgneeevqsxdo5m8l4orf.webp"
+  ],
+  "ownerId": {
+    "$oid": "6a1ebe714ebbd58c2f1d91f5"
+  },
+  "createdAt": {
+    "$date": "2026-06-05T05:48:01.037Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T14:16:52.952Z"
+  },
+  "bookedByIds": [
+    {
+      "$oid": "6a1ebe714ebbd58c2f1d91f5"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a226442963ba269f5f3b584"
+  },
+  "title": "Wano Kuni",
+  "address": "New World",
+  "description": "Wano Country[3] is a country in the New World that is unafilliated with the World Government.[4] It is located on the north side of the New World,[5] northwest of Egghead,[6] southwest of Winner Island,[7] and west of Elbaph.[8]\n\nIt was previously occupied by the Beasts Pirates as their territory, under Kaidou, one of the Four Emperors.[9] For a long time it was ruled by the Kouzuki Family,[10] however, the family's usurper, Kurozumi Orochi, conspired to overthrow and supersede their shogunate with the aid of the Beasts Pirates 28 years before the present day.[11] Upon his betrayal of the Kurozumi Family, Kaidou initiated his project to transform Wano into a lawless pirate paradise.[12] However, Wano was liberated after the defeats of both Kaidou and Orochi in the Raid on Onigashima, and the Kouzuki Family was returned to power with Kouzuki Momonosuke as the current shogun.[13] Before departing Wano, Monkey D. Luffy, the man who dethroned Kaidou, gave a copy of his Jolly Roger to Momonosuke to hang somewhere in the country and announced that if big trouble came, to point to the flag, implying that Wano is allied with and under the protection of the Straw Hat Pirates.[14]\n\nHundreds of years ago, Wano was known as the Country of Gold (黄金の国, Ōgon no Kuni?),[15] being once located at sea level. The Ancient Weapon Pluton is currently located under Mt. Fuji, beneath the old Wano Country.[16][17]",
+  "price": 300,
+  "perks": [
+    "mountains",
+    "coastal",
+    "mythical",
+    "historical",
+    "religious",
+    "warzone",
+    "medieval",
+    "quarantined",
+    "chaos"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780638783/bkcfgvh88ohu1atjryfd.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780638780/hnoiozf4acj1a98m4tfn.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780638781/c4af2aayheze6qvnnuyr.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780638782/vifautlago2hk33a58nr.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780638783/whgiphfndb4glvmftwrk.webp"
+  ],
+  "ownerId": {
+    "$oid": "6a1ebe714ebbd58c2f1d91f5"
+  },
+  "createdAt": {
+    "$date": "2026-06-05T05:53:06.394Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T18:48:04.998Z"
+  },
+  "bookedByIds": [
+    {
+      "$oid": "6a1ebe714ebbd58c2f1d91f5"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a271827b73bfeb45b150599"
+  },
+  "title": "Hell",
+  "address": "Dark Realm",
+  "description": "Hell, also known as Jekkad or the Dark Realm in Doom Eternal, is a cornerstone element of the Doom universe. It is a dimension from where demons originated, and by extension the source of the demonic invasion in the games. It has a significant presence in many levels, and is the setting of parts of Doom, Doom II, Final Doom, Doom 64, Doom 3, Resurrection of Evil, DOOM, Doom Eternal, and Doom: The Dark Ages.",
+  "price": 0,
+  "perks": [
+    "mountains",
+    "mythical",
+    "outoftheworld",
+    "warzone",
+    "tactical",
+    "radioactive",
+    "chaos",
+    "haunted"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780946959/xmf2lp2yymis03yuv25k.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780946960/a96wsuc0r7emutfifuvf.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780946961/gmthqsk1gxfllsd2e212.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780946963/jqutd1qwdccohbcbnxrj.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780946965/rqjaz3zw2ge26t75otnd.jpg"
+  ],
+  "createdAt": {
+    "$date": "2026-06-08T19:29:43.009Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T19:29:43.009Z"
+  },
+  "ownerId": {
+    "$oid": "6a1ebe714ebbd58c2f1d91f5"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a27192fb73bfeb45b15059a"
+  },
+  "title": "Stella Montis",
+  "address": "North of the Rust Belt",
+  "description": "Carved deep into the mountainside, Stella Montis looms silently over the valley below. Its vast scale hints at some grand intent, but the last occupants seemingly sealed it away from the world, leaving what lies within largely unknown.",
+  "price": 700,
+  "perks": [
+    "wifi",
+    "mountains",
+    "historical",
+    "warzone",
+    "tactical",
+    "chaos",
+    "scifi",
+    "unknown"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947216/yf3dzp9y8skbmrbzjptm.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947208/qco8tdbvexquphxbz2tj.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947209/u28xy7guwoji02mp4gto.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947210/reyqtfbxx5fpaqnvvxus.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947211/rybal8ecpyq4oasj2axw.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947212/mtdqlsfivdkfbg5vcibf.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947212/h6ysonhlkv82ldqfoisl.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947214/gsh2aapnihcm3arlrtvo.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947215/wmyvbmlprfs2bn3s5wtd.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947217/xo4zp2o1ifyrvchwhn0a.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947217/kklwwmfrbci0bn8lvclm.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947218/iskyllnkkmwvdzc0uah1.webp"
+  ],
+  "createdAt": {
+    "$date": "2026-06-08T19:34:07.573Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T19:34:07.573Z"
+  },
+  "ownerId": {
+    "$oid": "6a1ebe714ebbd58c2f1d91f5"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a271a33b73bfeb45b15059b"
+  },
+  "title": "Arkham Asylum",
+  "address": "Gotham City",
+  "description": "The historic Elizabeth Arkham Asylum for the Criminally Insane, known simply as Arkham Asylum, is a medical facility and criminal penitentiary secluded from the mainland. It is dedicated to helping those who are deemed criminally insane and afflicted with extreme mental illnesses.\n\nFounded in 1921, it initially consisted of just the Arkham Mansion and the Botanical Gardens but gradually developed into the institution it has become in modern Gotham City.",
+  "price": 699,
+  "perks": [
+    "wifi",
+    "coastal",
+    "historical",
+    "tactical",
+    "radioactive",
+    "quarantined",
+    "haunted",
+    "redacted",
+    "chaos"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947491/nf6nvvv92yazwukkocbm.png",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947489/gxmmdkgpt9ummru36dfw.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947487/oqys9zzb4aqzjqjimm82.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947488/e4ntf10bmqjp5me0bldp.jpg"
+  ],
+  "createdAt": {
+    "$date": "2026-06-08T19:38:27.454Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T19:38:27.454Z"
+  },
+  "ownerId": {
+    "$oid": "6a1ebe714ebbd58c2f1d91f5"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a271b40b73bfeb45b15059c"
+  },
+  "title": "Infinity Castle",
+  "address": "extra-dimensional",
+  "description": "The Infinity Castle (異い空くう間かん無む限げん城じょう Ikūkan Mugen-jō?) is the eponymous location of the Infinity Castle Arc. The Blood Demon Art and domain of the Biwa Demon, Nakime, it is a vast extra-dimensional space that serves as the lair of Muzan Kibutsuji.",
+  "price": 1200,
+  "perks": [
+    "mythical",
+    "outoftheworld",
+    "warzone",
+    "tactical",
+    "quarantined",
+    "medieval",
+    "radioactive",
+    "spacetimedistortion",
+    "chaos",
+    "unknown"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947716/bnwv1wsuzhuxllhomrii.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947717/hurzuoepnnzjiol4t286.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947718/kd5ehmhp1skpegmv8zv3.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947718/ak5m537kvwl6wrggfuse.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947719/vd0anisi5gchedrrmrn9.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947720/mtu5i6fcyo2tn7phvu67.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947721/yb5hlvqkw3mb2tz98pvz.webp"
+  ],
+  "createdAt": {
+    "$date": "2026-06-08T19:42:56.876Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T19:42:56.876Z"
+  },
+  "ownerId": {
+    "$oid": "6a1ebe714ebbd58c2f1d91f5"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a271c21b73bfeb45b15059d"
+  },
+  "title": "Tsushima ",
+  "address": "west coast of Kyushu in the Japanese archipelago",
+  "description": "Tsushima (対馬) is where Ghost of Tsushima takes place. It is a Japanese island situated off the west coast of Kyushu in the Japanese archipelago. Tsushima is divided into three regions: Izuhara, Toyotama and Kamiagata. Each region is then divided into several prefectures.",
+  "price": 400,
+  "perks": [
+    "mountains",
+    "coastal",
+    "religious",
+    "historical",
+    "warzone",
+    "medieval",
+    "chaos"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947982/gac9cjfclnqrkcrxlkhy.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947983/ccvoiaxv91z3ojjrzldb.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947984/s4e19dlmgsrx3lh7zwjq.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947985/j1m30cyxc4zwmltshkdz.png",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947986/scnz0aabd3euh65qqidr.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780947987/zwey5e5cizvxbcucyies.jpg"
+  ],
+  "createdAt": {
+    "$date": "2026-06-08T19:46:41.837Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T19:46:41.837Z"
+  },
+  "ownerId": {
+    "$oid": "6a1ec01f4627f4603e08f4bd"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a271dbfb73bfeb45b15059e"
+  },
+  "title": "Malevelon Creek",
+  "address": "Western Galactic Fringe",
+  "description": "During the Automatons Icon Automaton Expedition, it became the single most infamous planet on the entire Automaton front, due to the extremely intense and difficult fighting that took place on it, and the shock it left on the newly-trained Helldivers Companion Helldivers that deployed in it.\n\nConstant battles against socialist Automatons Icon Automaton invaders exacted an enormous human cost, totalling up to 25,054,171 Helldiver casualties in the 2 months it was occupied. Only three other battles have exacted a bloodier toll in the Corps in a shorter timespan, which were the Battle of Calypso against the Illuminate Icon Illuminate, with 38,746,807 Helldiver casualties, the Battle of Super Earth, with 120,330,767 Helldiver casualties, and the Battle of Oshaune during the Great Expedition into The Gloom, with an estimated 150,000,000 Helldiver Casualties on top of the 80 million Helldivers killed during the campaigns prior.\n\nAfter its liberation from the Automatons Icon Automatons on April 3rd 2184, Malevelon Creek Memorial Day was officially established as an annual event celebrating the establishment of peace on the devastated world.",
+  "price": 999,
+  "perks": [
+    "wifi",
+    "mountains",
+    "coastal",
+    "outoftheworld",
+    "warzone",
+    "tactical",
+    "radioactive",
+    "quarantined",
+    "spacetimedistortion",
+    "chaos",
+    "scifi"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780948386/bmhzcv8ns5c21bpxvyvx.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780948386/vj7t7sywkjme38xh7nrv.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780948385/mite5b00mdnzszju7mkm.png",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780948382/rdafosvs7y0cqkizvuvn.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780948383/oqbydtfgxmo1qvtpzmjl.webp"
+  ],
+  "createdAt": {
+    "$date": "2026-06-08T19:53:34.090Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T19:54:24.404Z"
+  },
+  "ownerId": {
+    "$oid": "6a1ec01f4627f4603e08f4bd"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a272060b73bfeb45b15059f"
+  },
+  "title": " Grand Prix de Monaco",
+  "address": "Monaco ",
+  "description": "The Monaco Grand Prix (French: Grand Prix de Monaco) is a Formula One motor racing event held annually on the Circuit de Monaco, in late May or early June. Run since 1929, it is widely considered to be one of the most important and prestigious automobile races in the world,[1][2][3] and is one of the races—along with the Indianapolis 500 and the 24 Hours of Le Mans—that form the Triple Crown of Motorsport.[4] It is the only Grand Prix that does not adhere to the FIA's mandated 305-kilometre (190-mile) minimum race distance for Formula One races.",
+  "price": 1500,
+  "perks": [
+    "wifi",
+    "mountains",
+    "coastal"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780949066/z7d1xxteg1upmalj7t8r.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780949061/ypomcqzoefuofngvyjpz.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780949063/daa3ixrvbvb4l7womzak.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780949064/gfanepssd4kyxmzryikz.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780949065/pfkntri5lqskauj9dvgs.jpg"
+  ],
+  "createdAt": {
+    "$date": "2026-06-08T20:04:47.278Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T20:04:47.278Z"
+  },
+  "ownerId": {
+    "$oid": "6a1ec01f4627f4603e08f4bd"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a2721a0b73bfeb45b1505a0"
+  },
+  "title": "The Eclipse ",
+  "address": "interdimensional space ",
+  "description": "The Eclipse (蝕, Shoku) is a rare sacrificial ceremony occurring once every 216 years, during which a new member of the God Hand is to be born.\n\nOnly those possessing the Crimson Beherit can trigger the Eclipse. Apostles eagerly anticipate the Eclipse, traveling to the designated site of the \"promised time\" in advance, ominously awaiting the event at its predestined setting.[2] Upon reaching a point of profound despair, the Crimson Beherit's owner activates it, manifesting an interdimensional space where the Eclipse takes place. The bearer is then given the choice of offering as sacrifice what is most precious to them in exchange for kinsmanship with the God Hand as a demon. The event's demonic conductors compel the invoker to realize their pre-ordained decision. With the utterance of \"I sacrifice,\" the rebirth of the invoker as a God Hand member is initiated, and their sacrificial offerings are marked with the Brand of Sacrifice.",
+  "price": 150,
+  "perks": [
+    "mythical",
+    "outoftheworld",
+    "historical",
+    "warzone",
+    "tactical",
+    "radioactive",
+    "medieval",
+    "quarantined",
+    "spacetimedistortion",
+    "chaos",
+    "haunted"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780949389/v9k3xd5y4laccdg2tymw.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780949390/mihu2czhg3lwcodgzlwt.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780949391/tebopredndlueglxhsqi.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780949392/smk34jxw4zzyd0vcylth.jpg"
+  ],
+  "createdAt": {
+    "$date": "2026-06-08T20:10:08.487Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T20:10:08.487Z"
+  },
+  "ownerId": {
+    "$oid": "6a1ec01f4627f4603e08f4bd"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a272361b73bfeb45b1505a1"
+  },
+  "title": "Ashina Castle",
+  "address": "Ashina ",
+  "description": "Ashina Castle is an impressive complex guarded by tall walls, fearless Fencer and the agile Nightjar Ninja. They protect the nobles within the palace, as well as guarding against the escape of the hostage: Kuro The Divine Heir.",
+  "price": 600,
+  "perks": [
+    "mountains",
+    "mythical",
+    "religious",
+    "historical",
+    "warzone",
+    "medieval",
+    "chaos",
+    "unknown"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780949817/qhtrfwucpfix1pbrk8bu.png",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780949819/evwi2icnetsn8nn5feqj.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780949816/qm993bkkr1klqsawo31m.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780949819/jw5caikqecpvswb605d7.jpg"
+  ],
+  "createdAt": {
+    "$date": "2026-06-08T20:17:35.922Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T20:53:20.321Z"
+  },
+  "ownerId": {
+    "$oid": "6a1ec01f4627f4603e08f4bd"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a27242eb73bfeb45b1505a2"
+  },
+  "title": "Malevolent Shrine",
+  "address": "Sukuna's domain expansion",
+  "description": "Befitting its name, Malevolent Shrine constructs a disfeatured Buddhist shrine (resembling an oversized zushi, or more vaguely a chinjudō) that has been distorted to instead enshrine demons. Several bovine skulls form the base of the shrine. The hip-and-gable roof is crowned with a small bovine skull, has horns emerging from it, two smaller mouths in each gable, tiny fanged mouths in each of the top corners of the entrances' doorframes, as well as human skulls that hang down from the four corners of the roof. The four entrances to the shrine are formed by four large, grotesque mouths, complete with humanlike teeth and tongues.[1][2] Four short, tree-like stumps with gnarled branches stand at each corner of the shrine.",
+  "price": 50,
+  "perks": [
+    "mythical",
+    "outoftheworld",
+    "historical",
+    "radioactive",
+    "medieval",
+    "quarantined",
+    "spacetimedistortion",
+    "chaos",
+    "redacted"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780950040/eqzk0uluhpg9mzfjpbek.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780950039/ctgabil9h3mnnc20ftca.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780950041/mcis8fbqobk7qed5tybw.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780950039/pald0ypgqs47gg5gat39.jpg"
+  ],
+  "createdAt": {
+    "$date": "2026-06-08T20:21:02.418Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T20:21:02.418Z"
+  },
+  "ownerId": {
+    "$oid": "6a1ec01f4627f4603e08f4bd"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a2724c9b73bfeb45b1505a3"
+  },
+  "title": "Kaer Morhen",
+  "address": "Blue Mountains of Hertch in the kingdom of Kaedwen",
+  "description": "Kaer Morhen (corruption of Elder Speech: Caer a'Muirehen, meaning Keep of the Elder Sea) is an old keep where witchers of the School of the Wolf used to be trained. It is located in the Blue Mountains of Hertch in the kingdom of Kaedwen, right off the Gwenllech river. The castle can only be reached by \"The Witchers Trail\", nicknamed \"The Killer\", which is easy to miss and encircles the keep. While Trials and Changes are no longer performed here, witchers still tend to rest here between their assignments—usually during the winter, after which they set out on The Path again.\n\nThe keep's name is a nod to an ancient sea in the area, indicated by the presence of fossilized sea creatures embedded in the stones on which it was built.[1]",
+  "price": 400,
+  "perks": [
+    "mountains",
+    "mythical",
+    "religious",
+    "historical",
+    "tactical",
+    "medieval",
+    "redacted"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780950207/pydvr3rsidhowbmsnx9m.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780950202/gkiamhbjfcj9huzwnzcv.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780950204/x4q1otszfyw8phyh7uvw.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780950205/whnlz4hp8bjcteuvto47.avif",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780950206/vrbv3huy46ekasflng5f.avif"
+  ],
+  "createdAt": {
+    "$date": "2026-06-08T20:23:37.148Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T20:50:49.220Z"
+  },
+  "ownerId": {
+    "$oid": "6a1ec01f4627f4603e08f4bd"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a2725c9b73bfeb45b1505a5"
+  },
+  "title": "Morioh",
+  "address": "Japan's M Prefecture in the city of S",
+  "description": "Morioh (杜王町 Moriō-chō) is a town located within Japan's M Prefecture in the city of S and the setting of Diamond is Unbreakable.\n\nWhile the population of Morioh is small and relatively peaceful, living there before the introduction of the Bow and Arrow are several Stand users; among them Josuke Higashikata and the villainous Yoshikage Kira. After the Nijimura brothers take the Bow and Arrow, Stand activity in the town takes a spike.\n\nMorioh possesses several landmarks, the vast majority of them being connected to Stand users.",
+  "price": 150,
+  "perks": [
+    "mountains",
+    "coastal",
+    "wifi",
+    "spacetimedistortion",
+    "chaos"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780950463/cxvilv6gx8wlbkggryfz.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780950465/ww0jhzwxpidbpab1s5mu.png",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780950466/jelfccatglalt2xoixtk.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780950467/x980x2cffuyc3tktv0yq.jpg"
+  ],
+  "createdAt": {
+    "$date": "2026-06-08T20:27:53.508Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T20:27:53.508Z"
+  },
+  "ownerId": {
+    "$oid": "6a27250db73bfeb45b1505a4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a272661b73bfeb45b1505a6"
+  },
+  "title": "Radahn Festival",
+  "address": "Redmane Castle",
+  "description": "Starscourge Radahn, the Red Lion General, wanted nothing more than an honorable death. He dueled Malenia, Blade of Miquella at the Battle of Aeonia toward the end of the Shattering. To match Radahn's measure, Malenia snapped Miquella's Needle to unleash her first-ever Scarlet Aeonia bloom.[1] Though Radahn survived the encounter, he was afflicted with the incurable scarlet rot. Over time, the rot ate away at him until he lost his wits and degenerated into a feral beast. Still alive, the Demigod never received his warrior's end.[2]\n\nDuring the Shattering, Witch-Hunter Jerren served General Radahn in his Redmane army. He was duty-bound to maintain Redmane Castle as long as Radahn lived.[3] He organized the Radahn Festival to ensure his master received a noble warrior's death. When the stars aligned, champions from across the Lands Between gathered at Redmane Castle Plaza to challenge Radahn.[4] They came seeking glory and Radahn's Great Rune.[5][6] They reveled and made merry before departing through the north gate to the Wailing Dunes,[7][8] where Starscourge Radahn devoured their soon corpses and howled at the sky.[9]",
+  "price": 297,
+  "perks": [
+    "mythical",
+    "historical",
+    "tactical",
+    "medieval",
+    "spacetimedistortion",
+    "chaos"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780950616/maibkgcf3mgatrpku9ae.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780950616/u4e0fptrizf28yggeeen.avif",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780950617/gnxvq87umytr9pivc6v3.jpg"
+  ],
+  "createdAt": {
+    "$date": "2026-06-08T20:30:25.574Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T20:30:25.574Z"
+  },
+  "ownerId": {
+    "$oid": "6a27250db73bfeb45b1505a4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a27270bb73bfeb45b1505a7"
+  },
+  "title": "Harran",
+  "address": "Turkey",
+  "description": "Harran was an autonomous Turkish city-state and the main setting in the game Dying Light. The distant skylines and high-rise buildings gives a sense of enormity and depth to this urban structure. Like most major cities and urban hubs some parts of Harran are wealthy and affluent while other parts are not so prosperous. During the central campaign, and the side missions, you will be traversing these two major areas of Harran in order to stay alive.",
+  "price": 100,
+  "perks": [
+    "wifi",
+    "mountains",
+    "coastal",
+    "historical",
+    "radioactive",
+    "tactical",
+    "quarantined",
+    "chaos",
+    "haunted",
+    "unknown"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780950788/xpaabhzzifqwqldip9mj.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780950786/ivbtoqmtbo8l9sgkgrnv.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780950784/y0b55mgqibolramojae3.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780950787/rcn8ahbd4o3pzytawjua.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780950785/jdlapphxjalkt38mvt3j.jpg"
+  ],
+  "createdAt": {
+    "$date": "2026-06-08T20:33:15.461Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T20:33:39.789Z"
+  },
+  "ownerId": {
+    "$oid": "6a27250db73bfeb45b1505a4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a2727eeb73bfeb45b1505a8"
+  },
+  "title": "Night City",
+  "address": "Pacific Coast of North America",
+  "description": "The Free City of Night City (NC)[4] is an autonomous city-state found on the shores of Del Coronado Bay, located on the border between North and South California, on the Pacific Coast of North America. Established in 1993 by Richard Night and incorporated into the United States in 1994, Night City was originally known as Coronado City before its renaming in 1998. It functioned as an independent city of the state of Northern California until its separation in 2070.",
+  "price": 1300,
+  "perks": [
+    "wifi",
+    "tactical",
+    "quarantined",
+    "spacetimedistortion",
+    "chaos",
+    "scifi"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780951005/i0baqttsqdoxupxhchal.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780951006/lhytippjvgkmpg8rdbui.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780951007/g9q8fx4sjlsf1phydgpw.avif",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780951008/ypjncwg9mgttexa4auez.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780951009/tvovazb6oranmmwxpwtq.png",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780951011/r2y6dizledbxvfk034xo.png"
+  ],
+  "createdAt": {
+    "$date": "2026-06-08T20:37:02.622Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T20:37:02.622Z"
+  },
+  "ownerId": {
+    "$oid": "6a27250db73bfeb45b1505a4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a2728c7b73bfeb45b1505a9"
+  },
+  "title": "Blue Gate ",
+  "address": "Rust Belt",
+  "description": "Once a steadfast symbol of defiant connection, the Blue Gate now serves as a daunting entryway into the perilous mountain ranges. The surrounding valley bears scars both new and old.\n\nThe Tubes network has only recently been expanded to reach the gates, requiring the construction of all-new Raider structures to facilitate Raider presence.",
+  "price": 550,
+  "perks": [
+    "mountains",
+    "warzone",
+    "tactical",
+    "radioactive",
+    "quarantined",
+    "chaos",
+    "scifi",
+    "redacted",
+    "unknown"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780951224/bxzval1wf1jtrf0gmcgw.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780951220/f6cphss4rtgkfcdqbjzi.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780951219/hdgbgz9qaeg4pppawki5.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780951221/wvtfo2rnotq71ogdaop7.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780951222/gm91ihh49t7cswghcruu.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780951223/ta9bq2g59keces9pdoin.webp"
+  ],
+  "createdAt": {
+    "$date": "2026-06-08T20:40:38.971Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T20:51:31.745Z"
+  },
+  "ownerId": {
+    "$oid": "6a27250db73bfeb45b1505a4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a27297db73bfeb45b1505aa"
+  },
+  "title": "Gas Town",
+  "address": "South of The Citadel",
+  "description": "Gas Town is a large structure built on flat plain area around an abandoned refinery south of The Citadel. The town itself has a massive moat of what appears to be crude oil surrounding it, with only a small narrow landbridge connecting it. An unnamed Warlord, called the Guardian of Gas Town, was originally the leader of the fortress before it fell to Dementus. After retaking it, Gas Town was given and ruled over by the People Eater.",
+  "price": 250,
+  "perks": [
+    "wifi",
+    "historical",
+    "warzone",
+    "tactical",
+    "radioactive",
+    "chaos",
+    "unknown"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780951408/miaipgio4nmrpnapxe3m.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780951407/lulzxbb9dibduzxt7aiq.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780951410/gsp1pcypzkvaivxb4nwy.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780951411/dda5gjsrsmollilxqkdv.webp"
+  ],
+  "createdAt": {
+    "$date": "2026-06-08T20:43:41.860Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T20:43:41.860Z"
+  },
+  "ownerId": {
+    "$oid": "6a27250db73bfeb45b1505a4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a272ac4b73bfeb45b1505ab"
+  },
+  "title": "Nazi occupied France",
+  "address": "France (1940)",
+  "description": "The Military Administration in France was an interim occupation authority established by Nazi Germany during World War II to administer the occupied zone in areas of northern and western France. This so-called zone occupée was established in June 1940, and renamed zone nord (\"north zone\") in November 1942, when the previously unoccupied zone in the south known as zone libre (\"free zone\") was also occupied and renamed zone sud (\"south zone\").\n\nIts role in France was partly governed by the conditions set by the Armistice of 22 June 1940 after the blitzkrieg success of the Wehrmacht leading to the Fall of France; at the time both French and Germans thought the occupation would be temporary and last only until Britain came to terms, which was believed to be imminent. For instance, France agreed that its soldiers would remain prisoners of war until the cessation of all hostilities.",
+  "price": 400,
+  "perks": [
+    "warzone",
+    "tactical",
+    "quarantined",
+    "chaos",
+    "redacted"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780951716/bet9qahn7qi6ab78zg7j.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780951717/ciqi1ur0i9yeloksd0km.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780951715/rrkx0zpwmautwpuitbek.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1780951714/yelvb25ujdunfz8rqyay.jpg"
+  ],
+  "createdAt": {
+    "$date": "2026-06-08T20:49:07.154Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-08T20:51:21.646Z"
+  },
+  "ownerId": {
+    "$oid": "6a27250db73bfeb45b1505a4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a280719fc1440b1aa6159ac"
+  },
+  "title": "Thermopylae ",
+  "address": "Greece (480 BCE)",
+  "description": "The Battle of Thermopylae (/θərˈmɒpɪliː/)[14] was fought in 480 BC at Thermopylae between the Achaemenid Persian Empire under Xerxes and an alliance of Greek city-states led by Sparta under Leonidas I. Lasting over the course of three days, it was one of the most prominent battles of both the second Persian invasion of Greece and the wider Greco-Persian Wars.\n\nThe engagement occurred simultaneously with the naval Battle of Artemisium: between July and September during 480 BC. The second Persian invasion under Xerxes was a delayed response to the failure of the first Persian invasion, which had been initiated by Darius I and ended in 490 BC by an Athenian-led Greek victory at the Battle of Marathon. By 480 BC, a decade after the Persian defeat at Marathon, Xerxes had amassed a massive land and naval force, and subsequently set out to conquer all of Greece. In response, the Athenian politician and general Themistocles proposed that the allied Greeks block the advance of the Persian army at the pass of Thermopylae while simultaneously blocking the Persian navy at the Straits of Artemisium.\n\nAround the start of the invasion, a Greek force of approximately 7,000 men – including an estimated 300 Spartans – led by Leonidas marched north to block the pass of Thermopylae. Ancient authors vastly inflated the size of the Persian army, with estimates in the millions, but modern scholars estimate it at between 120,000 and 300,000 soldiers. They arrived at Thermopylae by late August or early September; the outnumbered Greeks held them off for seven days (including three of direct battle) before their rear-guard was annihilated in one of history's most famous last stands. During two full days of battle, the Greeks blocked the only road by which the massive Persian army could traverse the narrow pass. After the second day, a local resident named Ephialtes revealed to the Persians the existence of a path leading behind the Greek lines. Subsequently, Leonidas, aware that his force was being outflanked by the Persians, dismissed the bulk of the Greek army and remained to guard their retreat along with 300 Spartans and 700 Thespians. It has been reported that others also remained, including up to 900 helots and 400 Thebans. With the exception of the Thebans, most of whom reportedly surrendered, the Greeks fought the Persians to the death.[15]",
+  "price": 300,
+  "perks": [
+    "mountains",
+    "coastal",
+    "historical",
+    "warzone",
+    "tactical",
+    "medieval",
+    "chaos"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781008134/fgubwl8a8kuya7q4mwfs.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781008129/gnzeq8tinvucdmcx4ph2.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781008130/mproctould0pikaaaebi.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781008131/bcn8bhup08zdysxtvlvp.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781008133/sqlbmwu0sjs11ayimvks.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781008136/nzygn0ddvaadgeuxwlqq.jpg"
+  ],
+  "createdAt": {
+    "$date": "2026-06-09T12:29:13.152Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-09T12:29:13.152Z"
+  },
+  "ownerId": {
+    "$oid": "6a272b66b73bfeb45b1505ad"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a28082ffc1440b1aa6159ad"
+  },
+  "title": "Fromvillie",
+  "address": "unknown",
+  "description": "A town with a hidden secret experiences strange occurrences that intensify at night. Mysterious forces disrupt everyday routines as residents try to preserve stability and community while attempting to comprehend their surroundings.",
+  "price": 250,
+  "perks": [
+    "outoftheworld",
+    "tactical",
+    "quarantined",
+    "spacetimedistortion",
+    "chaos",
+    "haunted",
+    "unknown"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781008423/k9iid1ilsrkx68d9hvse.png",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781008405/cne4qfcppwmillii3brb.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781008406/qsms9vzwwxltkm6kmeco.webp"
+  ],
+  "createdAt": {
+    "$date": "2026-06-09T12:33:51.044Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-09T12:33:51.044Z"
+  },
+  "ownerId": {
+    "$oid": "6a272b66b73bfeb45b1505ad"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a2808f0fc1440b1aa6159ae"
+  },
+  "title": "Chernobyl Exclusion Zone",
+  "address": " Pripyat, Ukrainian SSR, Soviet Union",
+  "description": "On 26 April 1986, reactor 4 of the Chernobyl Nuclear Power Plant, located near Pripyat, Ukrainian SSR, Soviet Union (later Ukraine), exploded. With dozens of direct casualties and thousands of health complications stemming from the disaster, it is one of only two nuclear accidents rated at the maximum severity on the International Nuclear Event Scale, the other being the 2011 Fukushima nuclear accident.[1] The response involved more than 500,000 personnel and cost an estimated 18 billion rubles (about US$84.5 billion in 2025).[2] It remains the worst nuclear disaster[3][4] and the most expensive disaster in history, with an estimated cost of US$700 billion.[5]\n\nThe disaster occurred during a test to simulate cooling the reactor during a serious accident in blackout conditions. The operators carried out the test following an accidental drop in reactor power. Upon shutting down the reactor in those conditions, design flaws led to a dramatic power surge. The reactor components ruptured and lost coolant, and the resulting steam explosions and meltdown destroyed the reactor building. This was followed by a reactor core fire that spread radioactive contaminants across the Soviet Union and Europe.[6] The Soviet government established a 10 km exclusion zone 36 hours after the accident, initially evacuating around 49,000 people. This was later expanded to 30 km, resulting in the evacuation of approximately 68,000 more people.[7] The government did not publicly acknowledge the disaster until two days after the explosion, when elevated radiation levels were detected in Sweden.[8]\n\nFollowing the explosion, which killed two engineers and severely burned two others, an emergency operation began to put out the fires and stabilize the reactor. Of the 237 workers hospitalized, 134 showed symptoms of acute radiation syndrome (ARS); 28 of them died within three months. Over the next decade, 14 more workers (nine of whom had ARS) died of various causes mostly unrelated to radiation exposure.[9] It is the only instance in commercial nuclear power history where radiation-related fatalities occurred.[10][11] As of 2005, 6000 cases of childhood thyroid cancer occurred within the affected populations (15 of them fatal), \"a large fraction\" being attributed to the disaster.[12] Long-term death estimates range from up to 4,000 in Ukraine, Belarus, and Russia (per the United Nations) to 16,000 in total across Europe.[13]\n\nPripyat was abandoned and replaced by the purpose-built city of Slavutych. The Chernobyl Nuclear Power Plant sarcophagus, completed in December 1986, reduced the spread of radioactive contamination and provided radiological protection for the crews of the undamaged reactors. In 2016–2018, the Chernobyl New Safe Confinement was constructed around the old sarcophagus to enable the removal of the reactor debris, with clean-up scheduled for completion by 2065.[14]",
+  "price": 600,
+  "perks": [
+    "wifi",
+    "historical",
+    "tactical",
+    "radioactive",
+    "quarantined",
+    "redacted"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781008609/zo9f4ankf5oeigtqiq7r.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781008601/ooiswbtfmo56mmvpaxjv.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781008603/c9fwnlatplzgljmhctvu.avif",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781008604/epbcbw5cqvayzuvoi3ve.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781008607/uh4tsurv361v7n5kx6kf.webp"
+  ],
+  "createdAt": {
+    "$date": "2026-06-09T12:37:02.338Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-09T12:37:02.338Z"
+  },
+  "ownerId": {
+    "$oid": "6a272b66b73bfeb45b1505ad"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a280a28fc1440b1aa6159af"
+  },
+  "title": "Ketil's Farm",
+  "address": "Jutland, Denmark",
+  "description": "You said: ketil's farmKetil's Farm is a massive agricultural estate in southern Jutland, Denmark, which serves as the primary setting for the Farmland Arc (Slave Arc) in the historical manga and anime series Vinland Saga. The farm is owned by Ketil, a wealthy Norse landowner who presents himself as a fair master, famously allowing slaves to purchase their own freedom through hard work.The estate plays a pivotal role in the narrative, shifting the series from a bloody tale of revenge to a profound story of pacifism, healing, and personal redemption.Key Characters on the FarmThorfinn: The series protagonist who works here as a traumatised slave after losing his purpose in life.Einar: A northern English farmer sold into slavery who becomes Thorfinn’s closest friend and farming partner.Sverkel: Ketil's elderly, eccentric father who values hard manual labor and teaches Thorfinn and Einar how to farm.Arnheid: Ketil's personal concubine and slave, whose tragic yearning for freedom heavily impacts Thorfinn and Einar.Snake: The leader of the farm's hired mercenaries (called \"Guests\"), who maintains peace and protects the borders.The Dark Reality and FallWhile the farm initially looks like a peaceful sanctuary, it exposes deep systemic flaws. Ketil’s \"kind master\" persona is built entirely on his comfort. When King Canute schemes to seize the farm's immense wealth to fund his royal treasury, the pressure breaks Ketil, revealing him to be a violent coward.The arc culminates in the tragic Battle of Ketil's Farm, where Ketil recruits untrained farmhands to fight King Canute's elite Jomsvikings, resulting in a brutal massacre and the ultimate dissolution of the estate.Where to WatchYou can stream the entirety of Season 2 (the Farmland Arc) on the Vinland Saga IMDb Profile or directly via these streaming platforms in India:Netflix (Subscription)Crunchyroll (Subscription)SonyLiv (Subscription)Amazon Prime Video (Requires Crunchyroll Add-on)Watch Thorfinn and Einar begin their life of labor on the estate in this episode breakdown:16:53Ketils Farm | VINLAND SAGA | Reaction 2x2Haylo & KissYouTube · 9 Oct 2025If you would like, I can provide more details on:The lore behind \"Iron Fist Ketil\" and his big secretA complete breakdown of the Battle of Ketil's FarmWhat happens to Thorfinn and Einar after leaving the farmLet me know what you want to explore next!14 sitesWhat makes the Ketil's Farm Arc so beloved by Vinland Saga ...27 May 2017 — [deleted] • 9y ago. Is a complete analisis of the story so far and Thorfinn's character, with huuuge character development and a c...Reddit·r/VinlandSagaKetil - Vinland Saga Wiki - FandomKetil acts rashly when he is blinded by rage, as seen when he decides to go up against Canute's elite forces and Jomsvikings despi...FandomCategory:Ketil's Farm | Vinland Saga Wiki - FandomKetil's Farm * Thorfinn. * Arnheid. * Einar. * Sverkel.FandomShow allYou said: gimme description of ketil's farmKetil's Farm is a massive, self-sustaining coastal estate in southern Jutland, Denmark, that serves as the central setting for Season 2 of Vinland Saga. While it initially looks like a peaceful paradise, it hides a dark, unstable reality.Visual and Functional LayoutThe Fields: Endless acres of dense forestland and open wheat fields that slaves must manually clear, plow, and harvest.The Main House: A large, luxurious wooden longhouse where Ketil, his family, and his personal house-slaves live.Sverkel’s Compound: A small, isolated cottage where Ketil’s father lives a simple life, farming his own small plot of land.The Garrison: A dedicated camp for \"The Guests,\" the farm's hired mercenaries led by Snake, who patrol the borders.Social StructureThe Master: Ketil owns the land and uses a unique system allowing slaves to buy their freedom by selling surplus crops.The Retainers: Cruel farmhands who view slaves as subhuman and frequently exploit, beat, or sabotage them out of jealousy.The Guests: Professional warriors who protect the farm from thieves in exchange for free food, shelter, and coin.The Slaves: The primary labor force, ranging from field workers like Thorfinn and Einar to domestic servants like Arnheid.Narrative AtmosphereThe farm functions as a crucible for character growth. For Thorfinn, the quiet, repetitive rhythm of clearing trees and planting seeds serves as therapy, allowing him to process his violent past and embrace pacifism. However, the farm's peace is an illusion built on the fragile whim of its master. When King Canute launches a royal invasion to seize its vast wealth, the entire estate collapses into a brutal battlefield.If you want to know more, I can break down:The economic system Ketil uses for slave liberationThe layout of Sverkel's farm vs. Ketil's estateHow the farm changes after the Jomsviking invasionLet me know what you would like to explore next!2 sitesGuests | Vinland Saga Wiki | FandomThe Guests, a group of 13 men hired by Ketil to protect his farm, are led by Snake. They reside in a fortress on Ketil's farm. The...FandomKetil | Vinland Saga Wiki | FandomPersonality Ketil believes that even slaves are deserving of fair treatment, and gives his own slaves a chance to work for their f...FandomGuests | Vinland Saga Wiki | FandomThe Guests, a group of 13 men hired by Ketil to protect his farm, are led by Snake. They reside in a fortress on Ketil's farm. The...FandomYou said: gimme description of ketil's farm in a paragraphKetil's Farm is a massive, self-sustaining coastal estate in southern Jutland, Denmark, that serves as a deceptive paradise and the central crucible for redemption in Vinland Saga Season 2. Visually defined by sprawling wheat fields, dense forests waiting to be cleared, and a luxurious master longhouse contrasted against simple slave quarters, the estate operates on a strict social hierarchy governed by the wealthy landowner Ketil, his cruel retainers, and a band of hired mercenaries led by Snake. While the farm features a unique economic system allowing slaves like Thorfinn and Einar to laboriously buy back their freedom, its peaceful, therapeutic atmosphere is ultimately an illusion. The estate's immense agricultural wealth eventually catches the eye of King Canute, turning the serene sanctuary into a horrific battlefield that exposes the fragile, violent foundations of the Norse slave economy.",
+  "price": 150,
+  "perks": [
+    "coastal",
+    "religious",
+    "historical",
+    "medieval"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781008926/jfrr6umydxljhyx89nwq.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781008920/dfec67vzm1vctzz1ummr.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781008921/yghwlrnxjsqtrwg1ozqj.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781008924/fcbvz4d3kmqyh9q6yual.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781008927/gwnyjm4ktzfojcdo8gb1.jpg"
+  ],
+  "createdAt": {
+    "$date": "2026-06-09T12:42:15.200Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-09T12:42:35.799Z"
+  },
+  "ownerId": {
+    "$oid": "6a272b66b73bfeb45b1505ad"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a280c2afc1440b1aa6159b0"
+  },
+  "title": "Terra",
+  "address": "Sol System",
+  "description": "Beautiful on the surface, but rotten underneath. Don't ever, even for a second, doubt that this is the most dangerous world in the galaxy.... Danger does not always come in the shape of Orks with bolters, Ragnar. This world is where the elite of the Imperium have gathered. We are talking now of the most ruthless, ambitious, unscrupulous collection of rogues ever culled from a million planets. This is the place they have come to realise their ambitions, and on Terra they can, and will not let anything stand in their way. Not me, not you, not their own kin if need be.",
+  "price": 950,
+  "perks": [
+    "wifi",
+    "mythical",
+    "religious",
+    "historical",
+    "tactical",
+    "spacetimedistortion",
+    "chaos",
+    "scifi"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781009438/esiad36uecavza7zdjeg.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781009435/qj8fnknnwzpxxjlm6dyn.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781009436/ttsdyjpr1xfsmcieleae.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781009439/lh14xgo5s7wondegf5oc.webp"
+  ],
+  "createdAt": {
+    "$date": "2026-06-09T12:50:50.897Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-09T12:50:50.897Z"
+  },
+  "ownerId": {
+    "$oid": "6a272b66b73bfeb45b1505ad"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a280d3dfc1440b1aa6159b2"
+  },
+  "title": "Mount Olympus",
+  "address": "Olympus",
+  "description": "Mount Olympus; born from the depths of the Underworld, rooted in the River of Souls, our mountain emerged out of the Chaos. As it grew, so too did the might of the Olympians. It created a world of peace, a world of prosperity, a world that lives in the shadow and safety of my mountain. My mountain that has come to be the absolute measure of strength and power.",
+  "price": 1999,
+  "perks": [
+    "mountains",
+    "mythical",
+    "outoftheworld",
+    "religious",
+    "historical",
+    "medieval",
+    "quarantined",
+    "chaos",
+    "redacted"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781009714/nnjoje3thgaeoxtuddsq.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781009714/pb83o1azwy0sswmu7slh.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781009717/fdfvera4hitgg0wvffde.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781009718/umi4yhnmxbh3fk0uf4sl.webp"
+  ],
+  "createdAt": {
+    "$date": "2026-06-09T12:55:25.626Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-09T12:56:05.026Z"
+  },
+  "ownerId": {
+    "$oid": "6a272b66b73bfeb45b1505ad"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a280e81fc1440b1aa6159b4"
+  },
+  "title": "Los Santos",
+  "address": "San Andreas",
+  "description": "Los Santos can be described as a larger, more diverse and detailed counterpart of its previous universe depiction. Los Santos has become synonymous with the film industry thanks to the classic Vinewood motion pictures, attracting filmmakers and actors from all over the world. Also, it is established that Los Santos experienced riots before 2008, paralleling the Los Angeles riots.[2] The city was first mentioned in the HD Universe in Grand Theft Auto IV and Grand Theft Auto: Chinatown Wars.\n\nLike its real-life counterpart, Los Santos is a huge and sprawling metropolis with various different cultures, ranging from the prestigious film-making industry of Vinewood to the suburban hood life of Strawberry, just to name a few. Like Liberty City in Grand Theft Auto IV, the time and date of the city in Grand Theft Auto V is the same as the year the game was released (2013), while in Grand Theft Auto Online (set in real-life timing), the city keeps evolving and new locations are introduced with each update.",
+  "price": 1200,
+  "perks": [
+    "wifi",
+    "tactical",
+    "coastal",
+    "chaos"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010040/mgpjdpppisni5zpuztra.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010038/qgqy7c30futwgg48ao5j.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010039/znxiuckzxv1dbvsbmckm.png",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010041/jr2plmwarss90hnvoody.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010041/pa8xlhyrmd6m8d5mo0dn.avif"
+  ],
+  "createdAt": {
+    "$date": "2026-06-09T13:00:48.930Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-09T13:00:55.315Z"
+  },
+  "ownerId": {
+    "$oid": "6a280db0fc1440b1aa6159b3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a280f1dfc1440b1aa6159b5"
+  },
+  "title": "San Fierro",
+  "address": "San Andreas",
+  "description": "San Fierro is the second largest city in population and the smallest in area in San Andreas. San Fierro has a majority Asian population and is very diverse, economically and ethnically. It is the most urbanized city, and is situated on a peninsula on the western part of the state. South of the city lies the massive Mount Chiliad (based on Mount Diablo) and the small town of Angel Pine in Whetstone. To the north of the city, across the Gant Bridge (a re-creation of the famous Golden Gate Bridge), lies the town of Bayside, and northeast of the city lies the county of Tierra Robada. San Fierro is a moderately sized city with the San Fierro Bay (based on San Francisco Bay) to the northeast and The Panopticon to the east. San Fierro is connected to Los Santos and Las Venturas by road, rail and air.\n\nSupposedly of Spanish foundation like San Francisco, Fierro is old Spanish for Hierro (Iron), not a likely name for a saint. The name derives from the motto for the city of San Francisco, \"Oro en Paz, Fierro en guerra\", Spanish for \"Gold in Peace, Iron in War\".\n\nThere is a sizeable country club complete with a golf course within San Fierro. In addition to this, San Fierro has a district marked by rainbow signs that is meant to emulate San Francisco's famous Castro District, home to a sizeable homosexual population. San Fierro is also home to the football team, the San Fierro 69ers, a double entendre referring to both the San Francisco 49ers and the \"69\" sexual position. Furthermore, in a crude reference to anal sex, the city's baseball team, the San Fierro Packers, is sponsored by none other than Fierro Fudge.\n\nThe city is also briefly mentioned in Manhunt 2 as the former home of Dr. Daniel Lamb in the mid 1980s.",
+  "price": 900,
+  "perks": [
+    "wifi",
+    "tactical",
+    "mountains"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010191/hah6xlyiydkcgqf5983x.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010193/tuwmv0pfq4pzcfnky7l1.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010194/tsqkbqidbc8tcjxfd9f2.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010195/o7yo0dzoz77uokidi27p.webp"
+  ],
+  "createdAt": {
+    "$date": "2026-06-09T13:03:25.227Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-09T13:03:35.334Z"
+  },
+  "ownerId": {
+    "$oid": "6a280db0fc1440b1aa6159b3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a280fadfc1440b1aa6159b6"
+  },
+  "title": "Las Veturas",
+  "address": "San Andreas",
+  "description": "Las Venturas is a gambling city located in a desert region in the north east of San Andreas, bordered by the neighboring Bone County to the west and Red County to the south. It is famous for its renowned Strip, which runs through the middle of the city and is lined with numerous casinos including Caligula's Palace and The Four Dragons Casino. Everything that can be bought in Las Venturas, is 20% more expensive than in the rest of the state, excluding the Pay 'n' Spray service, the vehicle color respray service offered at TransFender, the food vendors, and the vending machines.\n\nLas Venturas is Spanish for \"The Fortunes\", a reference to the gambling culture of the city and its inspiration.",
+  "price": 1400,
+  "perks": [
+    "wifi",
+    "tactical",
+    "historical",
+    "chaos"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010334/aylpsdwngytigoqocify.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010332/kwtpk3sym0cqc0gqcqls.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010333/frnvcrrlv6uxjnkcqd1j.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010336/rnqurm8tfywpcowbe6f4.jpg"
+  ],
+  "createdAt": {
+    "$date": "2026-06-09T13:05:48.981Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-09T13:05:48.981Z"
+  },
+  "ownerId": {
+    "$oid": "6a280db0fc1440b1aa6159b3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a281067fc1440b1aa6159b7"
+  },
+  "title": "Liberty City",
+  "address": "State of Liberty ",
+  "description": "Liberty City is a very different place in the 21st century. The most famous skyline in the world now belies a city gripped by fear and suspicion. In the shadow of an uncertain economy and the threat of terrorism, organized criminals, corrupt officials, and beleaguered security forces vie for supremacy in a city that is desperately trying to turn itself into a suburb. It is still a place where anything is possible, depending on how much of yourself you are prepared to sacrifice in the process.",
+  "price": 1300,
+  "perks": [
+    "wifi",
+    "tactical",
+    "chaos"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010519/yrl84a7mqu60iwsjarcq.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010520/y4fxhyias2zmvkucfird.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010521/okcdoawixsfvuvc9obkr.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010523/juvwrq7jvsnbnki8fwoq.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010524/veeboevouz3qexihjok9.png",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010525/dffvxe0pw4orgpquhdno.avif",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010526/wwl8opzxoaqaettzlfkc.avif"
+  ],
+  "createdAt": {
+    "$date": "2026-06-09T13:08:55.269Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-09T13:08:55.269Z"
+  },
+  "ownerId": {
+    "$oid": "6a280db0fc1440b1aa6159b3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a2811d1fc1440b1aa6159b8"
+  },
+  "title": "Vice City",
+  "address": "Florida",
+  "description": "Does anyone really care about the history of Vice City? Probably not. Today it's a city run by dealers and weasels. Expensive suits, flashy cars and beautiful women are the accessories of millionaires that spend their afternoons in the shade, determining the fate of Vice City's less fortunate and waging war on rival drugs barons. Vice City's warm weather may be the only reason anyone would have dreamed of inhabiting the place at all. The weather is generally hot and sunny all year round with occasional showers and thunderstorms.",
+  "price": 1900,
+  "perks": [
+    "wifi",
+    "tactical",
+    "chaos"
+  ],
+  "photos": [
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010879/bb44qrkunn9xntpkxw26.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010877/bozgxcmxsk7pobm4ilgq.jpg",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010880/pcqbaniwtsuljnubj82r.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010881/ulnt9lryxk1crntowiwu.webp",
+    "https://res.cloudinary.com/dvwhacb9f/image/upload/v1781010882/zlgihopl1pi3adnf0lkg.jpg"
+  ],
+  "createdAt": {
+    "$date": "2026-06-09T13:14:53.846Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-09T13:14:53.846Z"
+  },
+  "ownerId": {
+    "$oid": "6a280db0fc1440b1aa6159b3"
+  }
+}]

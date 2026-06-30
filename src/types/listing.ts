@@ -8,4 +8,8 @@ export type Listing = {
   photos: string[];
   ownerId: string;
   createdAt: string;
+  location?: [number, number];
+  size?: number;
+  idx: string;
+  label?: string;
 };

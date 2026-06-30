@@ -47,6 +47,13 @@ model Listing {
 
   // Cached list of users who booked
   bookedByIds  String[] @db.ObjectId
+
+  // location info for globe
+  location Float[]
+  size Float
+  idx String
+  label String
+
 }
 
 model Booking {

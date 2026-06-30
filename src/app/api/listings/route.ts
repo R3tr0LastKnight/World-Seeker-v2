@@ -3,7 +3,19 @@ import { prisma } from "@/lib/prisma";
 
 export async function POST(req: NextRequest) {
   const body = await req.json();
-  const { title, address, description, price, perks, photos, ownerId } = body;
+  const {
+    title,
+    address,
+    description,
+    price,
+    perks,
+    photos,
+    ownerId,
+    location,
+    size,
+    idx,
+    label,
+  } = body;
 
   if (!ownerId) {
     return NextResponse.json({ error: "ownerId is required" }, { status: 400 });
@@ -17,8 +29,12 @@ export async function POST(req: NextRequest) {
       price: parseFloat(price),
       perks,
       photos,
+      location: location ?? [],
+      size: size ?? 0.001,
+      idx,
+      label: label ?? title,
       owner: {
-        connect: { id: ownerId }, // ← connect syntax instead of raw ownerId
+        connect: { id: ownerId },
       },
     },
   });
@@ -31,9 +47,7 @@ export async function GET(req: NextRequest) {
   const firebaseUid = searchParams.get("uid");
 
   const listings = await prisma.listing.findMany({
-    where: firebaseUid
-      ? { owner: { firebaseUid } } // filtered — my listings
-      : {}, // no filter — all listings
+    where: firebaseUid ? { owner: { firebaseUid } } : {},
     orderBy: { createdAt: "desc" },
   });
 
@@ -44,7 +58,19 @@ export async function GET(req: NextRequest) {
 
 export async function PATCH(req: NextRequest) {
   const body = await req.json();
-  const { id, title, address, description, price, perks, photos } = body;
+  const {
+    id,
+    title,
+    address,
+    description,
+    price,
+    perks,
+    photos,
+    location,
+    size,
+    idx,
+    label,
+  } = body;
 
   if (!id) {
     return NextResponse.json({ error: "id is required" }, { status: 400 });
@@ -59,6 +85,10 @@ export async function PATCH(req: NextRequest) {
       price: parseFloat(price),
       perks,
       photos,
+      location,
+      size: parseFloat(size),
+      idx,
+      label,
     },
   });
 
