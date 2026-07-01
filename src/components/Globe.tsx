@@ -1,7 +1,7 @@
 "use client";
 
 import createGlobe from "cobe";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useMemo, useState } from "react";
 import { RiMapPin3Fill } from "react-icons/ri";
 import { Listing } from "@/types/listing";
 
@@ -17,21 +17,35 @@ type Props = {
   onMarkerClick: (idx: string) => void;
 };
 
+const VISIBLE_COUNT = 12;
+
 function listingsToMarkers(listings: Listing[]): GlobeMarker[] {
   return listings
     .filter((l) => l.location && l.idx && l.label)
     .map((l) => ({
       location: l.location as [number, number],
       size: l.size ?? 0.001,
-      id: l.idx,
-      label: l.label,
+      id: l.idx as string,
+      label: l.label ?? l.title,
     }));
+}
+
+function pickRandom(markers: GlobeMarker[], count: number): GlobeMarker[] {
+  const shuffled = [...markers];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled.slice(0, count);
 }
 
 export default function Globe({ listings, onMarkerClick }: Props) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const markersRef = useRef<GlobeMarker[]>(listingsToMarkers(listings));
-  markersRef.current = listingsToMarkers(listings);
+
+  const [markers] = useState<GlobeMarker[]>(() =>
+    pickRandom(listingsToMarkers(listings), VISIBLE_COUNT),
+  );
+  const markersRef = useRef<GlobeMarker[]>(markers);
 
   const basePhiRef = useRef(0);
   const baseThetaRef = useRef(0.25);
@@ -46,8 +60,6 @@ export default function Globe({ listings, onMarkerClick }: Props) {
 
   const isDraggingRef = useRef(false);
   const isHoveringRef = useRef(false);
-
-  const VISIBLE_COUNT = 12;
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -137,8 +149,6 @@ export default function Globe({ listings, onMarkerClick }: Props) {
     pointerStartRef.current = null;
     isDraggingRef.current = false;
   };
-
-  const markers = markersRef.current;
 
   return (
     <div
