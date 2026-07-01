@@ -6,6 +6,7 @@ import LocaTile from "@/components/LocaTile";
 import LocationDrawer from "@/components/LocationDrawer";
 import { Drawer } from "@/components/ui/drawer";
 import { Listing } from "@/types/listing";
+import CurvedLoop from "./CurvedLoop";
 
 type Props = { listings: Listing[] };
 
@@ -20,7 +21,18 @@ export default function HomeClient({ listings }: Props) {
       }}
     >
       <div className="flex flex-col flex-1 items-center p-4 px-8 bg-zinc-50 font-sans dark:bg-black">
-        <div>
+        <div className="relative w-full justify-center flex items-center mt-8">
+          <div className="absolute w-full">
+            <CurvedLoop
+              marqueeText="Welcome to WorldSeeker ✦ Explore our world ✦ Book your next adventure ✦ Experience the globe like never before ✦ Discover hidden gems ✦ Connect with locals ✦ Create unforgettable memories ✦ Your journey starts here ✦"
+              speed={0.5}
+              curveAmount={400}
+              direction="right"
+              interactive
+              className=""
+            />
+          </div>
+
           <Globe
             listings={listings}
             onMarkerClick={(idx) => {

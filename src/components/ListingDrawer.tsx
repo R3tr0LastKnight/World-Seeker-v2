@@ -13,6 +13,8 @@ type Inputs = {
   address: string;
   description: string;
   price: number;
+  latitude: number;
+  longitude: number;
 };
 
 type Props = {
@@ -38,6 +40,9 @@ const ListingDrawer = ({ listing, onSaved }: Props) => {
       address: listing?.address ?? "",
       description: listing?.description ?? "",
       price: listing?.price ?? 0,
+      // location is stored as [lat, lng] (cobe marker format)
+      latitude: listing?.location?.[0] ?? 0,
+      longitude: listing?.location?.[1] ?? 0,
     },
   });
 
@@ -48,6 +53,8 @@ const ListingDrawer = ({ listing, onSaved }: Props) => {
       address: listing?.address ?? "",
       description: listing?.description ?? "",
       price: listing?.price ?? 0,
+      latitude: listing?.location?.[0] ?? 0,
+      longitude: listing?.location?.[1] ?? 0,
     });
     setPhotos(listing?.photos ?? []);
     setPerks(listing?.perks ?? []);
@@ -61,13 +68,39 @@ const ListingDrawer = ({ listing, onSaved }: Props) => {
 
     setSubmitting(true);
     try {
+      const { latitude, longitude, ...rest } = data;
+
+      // location expected by the globe as [lat, lng]
+      const location = [Number(latitude), Number(longitude)];
+      const size = 0.001;
+      const idx = data.title.trim().replace(/\s+/g, "-");
+      const label = data.title.trim();
+
       const res = await fetch("/api/listings", {
         method: isEdit ? "PATCH" : "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(
           isEdit
-            ? { id: listing.id, ...data, perks, photos }
-            : { ...data, perks, photos, ownerId: mongoUser!.id },
+            ? {
+                id: listing.id,
+                ...rest,
+                perks,
+                photos,
+                location,
+                size,
+                idx,
+                label,
+              }
+            : {
+                ...rest,
+                perks,
+                photos,
+                location,
+                size,
+                idx,
+                label,
+                ownerId: mongoUser!.id,
+              },
         ),
       });
 
@@ -157,6 +190,50 @@ const ListingDrawer = ({ listing, onSaved }: Props) => {
                 {...register("description")}
               />
             </div>
+          </div>
+
+          {/* Location (lat/lng) */}
+          <div className="w-full">
+            <div className="flex flex-col lg:flex-row gap-2 relative items-start">
+              <label className="lg:w-1/3 flex gap-2 items-end">
+                <p className="font-bold text-xl">Location</p>
+                <p className="font-extralight text-sm">
+                  Real-world coordinates on the globe
+                </p>
+              </label>
+              <div className="w-full lg:w-2/3 flex gap-2">
+                <input
+                  className="w-1/2 border rounded px-2 py-1"
+                  placeholder="Latitude"
+                  type="number"
+                  step="any"
+                  {...register("latitude", {
+                    required: true,
+                    valueAsNumber: true,
+                    min: -90,
+                    max: 90,
+                  })}
+                />
+                <input
+                  className="w-1/2 border rounded px-2 py-1"
+                  placeholder="Longitude"
+                  type="number"
+                  step="any"
+                  {...register("longitude", {
+                    required: true,
+                    valueAsNumber: true,
+                    min: -180,
+                    max: 180,
+                  })}
+                />
+              </div>
+            </div>
+            {(errors.latitude || errors.longitude) && (
+              <span className="text-red-500 text-sm">
+                Valid latitude (-90 to 90) and longitude (-180 to 180) are
+                required
+              </span>
+            )}
           </div>
 
           {/* Perks */}

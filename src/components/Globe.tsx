@@ -1,7 +1,7 @@
 "use client";
 
 import createGlobe from "cobe";
-import { useEffect, useRef, useMemo, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { RiMapPin3Fill } from "react-icons/ri";
 import { Listing } from "@/types/listing";
 
@@ -45,6 +45,7 @@ export default function Globe({ listings, onMarkerClick }: Props) {
   const [markers] = useState<GlobeMarker[]>(() =>
     pickRandom(listingsToMarkers(listings), VISIBLE_COUNT),
   );
+
   const markersRef = useRef<GlobeMarker[]>(markers);
 
   const basePhiRef = useRef(0);
@@ -78,7 +79,7 @@ export default function Globe({ listings, onMarkerClick }: Props) {
       diffuse: 1.2,
       mapSamples: 20000,
       mapBrightness: 16,
-      mapBaseBrightness: 0.1,
+      mapBaseBrightness: 0.0001,
       baseColor: [0.3, 0.3, 0.3],
       glowColor: [1, 1, 1],
       markerColor: [0.3, 0.3, 0.3],
@@ -120,7 +121,7 @@ export default function Globe({ listings, onMarkerClick }: Props) {
       cancelAnimationFrame(animationFrame);
       globe.destroy();
     };
-  }, []);
+  }, [markers]);
 
   const handlePointerDown = (e: React.PointerEvent<HTMLCanvasElement>) => {
     isDraggingRef.current = true;
@@ -152,7 +153,7 @@ export default function Globe({ listings, onMarkerClick }: Props) {
 
   return (
     <div
-      className="relative w-[600px] max-w-full aspect-square"
+      className="relative w-150 max-w-full aspect-square overflow-visible"
       onMouseEnter={() => (isHoveringRef.current = true)}
       onMouseLeave={() => (isHoveringRef.current = false)}
     >
@@ -161,9 +162,19 @@ export default function Globe({ listings, onMarkerClick }: Props) {
         onPointerDown={handlePointerDown}
         onPointerMove={handlePointerMove}
         onPointerUp={handlePointerUp}
-        className="w-full h-full cursor-grab active:cursor-grabbing [contain:layout_paint_size]"
+        className="w-full h-full cursor-grab active:cursor-grabbing contain-[layout_paint_size]"
       />
 
+      {/* Rotating text ring — overflows globe bounds intentionally */}
+
+      {/* Center watermark */}
+      {/* <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+        <span className="text-white/15 font-black text-xl tracking-[0.5em] select-none uppercase">
+          WorldSeeker
+        </span>
+      </div> */}
+
+      {/* Marker pins + labels */}
       {markers.map((m) => (
         <div key={m.id} className="group">
           <div
