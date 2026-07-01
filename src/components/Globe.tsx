@@ -133,8 +133,12 @@ export default function Globe({ listings, onMarkerClick }: Props) {
     if (!pointerStartRef.current) return;
     const dx = e.clientX - pointerStartRef.current.x;
     const dy = e.clientY - pointerStartRef.current.y;
-    dragPhiTargetRef.current = dx / 200;
-    dragThetaTargetRef.current = dy / 300;
+
+    const width = canvasRef.current?.clientWidth ?? 600;
+    const height = canvasRef.current?.clientHeight ?? 600;
+
+    dragPhiTargetRef.current = (dx / width) * Math.PI;
+    dragThetaTargetRef.current = (dy / height) * Math.PI;
   };
 
   const handlePointerUp = () => {
