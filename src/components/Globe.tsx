@@ -166,6 +166,7 @@ export default function Globe({ listings, onMarkerClick }: Props) {
         onPointerDown={handlePointerDown}
         onPointerMove={handlePointerMove}
         onPointerUp={handlePointerUp}
+        style={{ touchAction: "none" }}
         className="w-full h-full cursor-grab active:cursor-grabbing contain-[layout_paint_size]"
       />
 

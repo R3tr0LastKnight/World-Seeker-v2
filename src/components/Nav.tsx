@@ -29,7 +29,7 @@ const Nav = (props: Props) => {
   };
 
   return (
-    <div className=" flex justify-between items-center p-2 lg:px-8">
+    <div className=" flex justify-between items-center p-2 lg:px-8 relative z-50">
       <Link href={"/"} className="flex items-center gap-1">
         <svg
           xmlns="http://www.w3.org/2000/svg"

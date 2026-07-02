@@ -24,12 +24,12 @@ const LocationDrawer = ({ listing }: Props) => {
             <h2 className="text-2xl font-bold">All Photos — {listing.title}</h2>
             <button
               onClick={() => setShowAllPhotos(false)}
-              className="border px-4 py-2 rounded hover:bg-black hover:text-white transition-all cursor-pointer"
+              className="border px-4 py-2 rounded hover:bg-black hover:text-white transition-all cursor-pointer "
             >
-              ✕ Close
+              Close
             </button>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
             {listing.photos.map((photo, i) => (
               <div key={photo} className="relative h-56">
                 <Image

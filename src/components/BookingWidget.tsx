@@ -91,7 +91,7 @@ const BookingWidget = ({ listing }: Props) => {
         <span className="text-base font-normal text-gray-500"> / night</span>
       </div>
 
-      <div className="flex mt-4">
+      <div className="flex flex-col justify-center items-center lg:flex-row mt-4">
         <div>
           {" "}
           <p className="mb-3">

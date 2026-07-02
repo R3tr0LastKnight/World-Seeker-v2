@@ -3,6 +3,7 @@ import { Google_Sans } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import { Toaster } from "@/components/ui/sonner";
+import ThemeInitializer from "@/components/ThemeInitializer";
 
 const googleSans = Google_Sans({
   variable: "--font-google-sans",
@@ -37,6 +38,7 @@ export default function RootLayout({
     <html lang="en" className={`${googleSans.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
         <Nav unknown={undefined} />
+        <ThemeInitializer />
         {children}
         <Toaster />
       </body>

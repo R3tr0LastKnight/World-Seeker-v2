@@ -25,7 +25,7 @@ export default function HomeClient({ listings }: Props) {
           <div className="absolute w-full">
             <CurvedLoop
               marqueeText="Welcome to WorldSeeker ✦ Explore our world ✦ Book your next adventure ✦ Experience the globe like never before ✦ Discover hidden gems ✦ Connect with locals ✦ Create unforgettable memories ✦ Your journey starts here ✦"
-              speed={0.5}
+              speed={0.9}
               curveAmount={400}
               direction="right"
               interactive
